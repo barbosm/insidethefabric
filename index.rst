@@ -10,6 +10,9 @@ Welcome to the Insider's Guide to Security Fabric!
    :maxdepth: 2
    :caption: Contents:
 
+   intro
+   ch1
+   ch2
 
 
 Indices and tables
