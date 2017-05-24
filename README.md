@@ -1,4 +1,4 @@
-* [ ] # Insider's Guide to Fortinet Security Fabric
+# Insider's Guide to Fortinet Security Fabric
 
 Information Security has never been more relevant than now and the difference between a boring and stable environment and a exploited one sometimes can be just a few knobs turned in the right way.
 
