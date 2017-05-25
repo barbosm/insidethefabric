@@ -1,11 +1,14 @@
 {
-    "plugins" : [ "bootstrap-callout", "terminal" ]
-}
-
-"pluginsConfig": {
-  "terminal": {
-    "copyButtons": true,
-    "fade": true,
-    "style": "flat",
+  "plugins" : [ 
+  "bootstrap-callout", 
+  "terminal"
+  ],
+  
+  "pluginsConfig": {
+    "terminal": {
+      "copyButtons": true,
+      "fade": true,
+      "style": "flat",
+      }
   }
 }
