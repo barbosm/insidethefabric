@@ -47,4 +47,13 @@ After you receive the network diagram you're ready to start configuring the spec
 * Source NAT
 
 
+> #### primary::Title
+> #### success::Title
+> #### danger::Title
+> #### warning::Title
+> #### info::Title
+
+> #### Title
+>
+> Content
 
