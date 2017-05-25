@@ -9,7 +9,7 @@ First let's do some generic but very important management configuration.
 ## Change admin password
 
 ```
-**[terminal] 
+**[terminal]
 config system admin
     edit "admin"
         set password verygoodandsecurepassword
