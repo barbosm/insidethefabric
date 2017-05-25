@@ -10,11 +10,11 @@ First let's do some generic but very important management configuration.
 
 ```
 **[terminal] 
-**[command config system admin
+config system admin
     edit "admin"
         set password verygoodandsecurepassword
     next
-end]
+end
 ```
 
 ## Hostname
