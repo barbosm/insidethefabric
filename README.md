@@ -22,9 +22,7 @@ To give you enough knowledge to design, build and operate a medium-size network 
 
 I usually prefer to give instructions using the CLI commands as they're easier to follow and are less subjected to updates in the GUI, in this book first version I'll use that as my main method to configure.
 
-
-
 ## Contribute
 
-If you found any issues in this book please report it at the [GitHub repository](https://github.com/barbosm/insidethefabric/issues)
+If you find any issues in this book please report it at the [GitHub repository](https://github.com/barbosm/insidethefabric/issues)
 
