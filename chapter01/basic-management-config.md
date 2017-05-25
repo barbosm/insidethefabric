@@ -28,7 +28,7 @@ end
 FGVM020000000000 # **[command config system global]
 FGVM020000000000 (global) # **[command set hostname FG]
 FGVM020000000000 (global) # **[command end]
-FG #
+**[prompt FG]**[delimiter  # ]
 ```
 
 ## Admin session timeout
