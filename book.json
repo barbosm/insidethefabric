@@ -1,3 +1,6 @@
 {
-    "plugins" : [ "bootstrap-callout" ]
+    "plugins" : [ 
+    "bootstrap-callout",
+    "terminal"
+     ]
 }
