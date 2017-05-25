@@ -66,6 +66,8 @@ Image-ID    Version
 04000000FIMG0012003016    v4.00 MR3-GA P16 b0686 (downgrade)
 
 
+test
+
 **[prompt FG]**[delimiter  # ]**[command exec restore image management-station 05004000FIMG0012004004]
 Please wait...
 
