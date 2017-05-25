@@ -9,11 +9,12 @@ First let's do some generic but very important management configuration.
 ## Change admin password
 
 ```
-config system admin
+**[terminal] 
+**[command config system admin
     edit "admin"
         set password verygoodandsecurepassword
     next
-end
+end]
 ```
 
 ## Hostname
@@ -24,10 +25,10 @@ config system global
 end
 **[terminal]
 
-FGVM020000000000 # [command] config system global
-FGVM020000000000 (global) # [command] set hostname FG
-FGVM020000000000 (global) # [command ]end
-FG # 
+FGVM020000000000 # **[command config system global]
+FGVM020000000000 (global) # **[command set hostname FG]
+FGVM020000000000 (global) # **[command end]
+FG #
 ```
 
 ## Admin session timeout
