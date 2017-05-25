@@ -124,7 +124,9 @@ Result: Updates Installed
 You're proud of all the hard work done but there is still more to come, you just received a new email from your boss, this one contains the network diagram and ip addressing for your network.
 
 
-
+```
 **[terminal]
 **[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
 Normal output line. Nothing special here...
+asd
+```
