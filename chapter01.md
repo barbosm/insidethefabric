@@ -46,14 +46,39 @@ After you receive the network diagram you're ready to start configuring the spec
 * Static routing
 * Source NAT
 
-
 > #### primary::Title
+>
+> test
+
+
+
+> test
+
+#### 
+
 > #### success::Title
+
+#### 
+
 > #### danger::Title
+>
+> danger!
+
+#### 
+
 > #### warning::Title
+>
+> warning!
+
+#### 
+
 > #### info::Title
+
+#### 
 
 > #### Title
 >
 > Content
+
+
 
