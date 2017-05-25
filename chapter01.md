@@ -49,9 +49,7 @@ After you receive the network diagram you're ready to start configuring the spec
 > #### primary::Title
 >
 > test
-
-
-
+>
 > test
 
 #### 
