@@ -124,6 +124,35 @@ Last Update Attempt: n/a
 Result: Updates Installed
 ```
 
+As you can see there's currently no info regarding the contract, let's fix that
+
+```
+**[terminal]
+exec update-now
+```
+
+Now we check again and finally see that everything is fine:
+
+```
+**[terminal]
+**[prompt FG]**[delimiter  # ]**[command diag autoupdate versions]
+AV Engine
+---------
+Version: 5.00239
+**[warning Contract Expiry Date: Fri Nov 17 2017]
+Last Updated using manual update on Wed Nov 16 15:45:00 2016
+Last Update Attempt: n/a
+Result: Updates Installed
+
+Virus Definitions
+---------
+Version: 47.00029
+**[warning Contract Expiry Date: Fri Nov 17 2017]
+Last Updated using manual update on Wed May 24 17:04:00 2017
+Last Update Attempt: n/a
+Result: Updates Installed
+```
+
 ## You got mail!
 
 You're proud of all the hard work done but there is still more to come, you just received a new email from your boss, this one contains the network diagram and ip addressing for your network.
