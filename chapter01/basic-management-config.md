@@ -64,10 +64,10 @@ Image-ID    Version
 05000000FIMG0012000012    v5.00 GA P12 b0318 (downgrade)
 04000000FIMG0012003018    v4.00 MR3-GA P18 b0689 (downgrade)
 04000000FIMG0012003016    v4.00 MR3-GA P16 b0686 (downgrade)
+```
 
-
-test
-
+```
+**[terminal]
 **[prompt FG]**[delimiter  # ]**[command exec restore image management-station 05004000FIMG0012004004]
 Please wait...
 
