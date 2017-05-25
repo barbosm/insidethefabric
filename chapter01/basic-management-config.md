@@ -121,8 +121,6 @@ Last Update Attempt: n/a
 Result: Updates Installed
 ```
 
-## 
-
 ## You got mail!
 
 You're proud of all the hard work done but there is still more to come, you just received a new email from your boss, this one contains the network diagram and ip addressing for your network.
