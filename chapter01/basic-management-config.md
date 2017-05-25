@@ -20,20 +20,16 @@ end
 ## Hostname
 
 ```
+**[terminal]
 config system global
     set hostname FG
 end
-**[terminal]
-
-FGVM020000000000 # **[command config system global]
-FGVM020000000000 (global) # **[command set hostname FG]
-FGVM020000000000 (global) # **[command end]
-**[prompt FG]**[delimiter  # ]
 ```
 
 ## Admin session timeout
 
 ```
+**[terminal]
 config system global
     set admintimeout 60
 end
@@ -48,23 +44,20 @@ end
 First check your current version:
 
 ```
-FG # get sys stat
+**[terminal]
+**[prompt FG]**[delimiter  # ]**[command get sys stat]
 Version: FortiGate-VM64 v5.4.2,build1100,161101 (GA)
 ...
-**[terminal]
-**[prompt FG]**[delimiter  # ]**[command get sys status]
-
-**[prompt FG]**[delimiter  # ]**[command get sys stat]
-**[warning Version: FortiGate-VM64 v5.4.2,build1100,161101 (GA)]
 ```
 
 Now you can choose the target version, download it from the FortiGuard servers and update your device.
 
 ```
-FG # exec restore image management-station ?
+**[terminal]
+**[prompt FG]**[delimiter  # ]**[command exec restore image management-station ?]
 Image-ID    Version
 05006000FIMG0012006000    v5.06 GA b1449 (upgrade)
-05004000FIMG0012004004    v5.04 GA P4 b1117 (upgrade)
+**[warning 05004000FIMG0012004004    v5.04 GA P4 b1117 (upgrade)]
 05002000FIMG0012002011    v5.02 GA P11 b0754 (downgrade)
 05002000FIMG0012002010    v5.02 GA P10 b0742 (downgrade)
 05000000FIMG0012000013    v5.00 GA P13 b0322 (downgrade)
@@ -72,7 +65,7 @@ Image-ID    Version
 04000000FIMG0012003018    v4.00 MR3-GA P18 b0689 (downgrade)
 04000000FIMG0012003016    v4.00 MR3-GA P16 b0686 (downgrade)
 
-FG # exec restore image management-station 05004000FIMG0012004004
+**[prompt FG]**[delimiter  # ]**[command exec restore image management-station 05004000FIMG0012004004]
 Please wait...
 
 Getting image 05004000FIMG0012004004 from Management station...
@@ -97,6 +90,7 @@ Please wait for system to restart.
 > If you got something like this after trying to obtain the image from FortiGuard Distribution Network \(FDN\):
 >
 > ```
+> **[terminal]
 > Result=2
 > Command fail. Return code 5
 > ```
@@ -108,11 +102,12 @@ Please wait for system to restart.
 After the update you can check the FortiGate entitlement \(which security services it has activated and have support, essentially this dictates if you can update AV, IPS, AC \(Application Control\) definitions.
 
 ```
-FG # diag autoupdate versions 
+**[terminal]
+**[prompt FG]**[delimiter  # ]**[command diag autoupdate versions]
 AV Engine
 ---------
 Version: 5.00239
-Contract Expiry Date: n/a
+**[error Contract Expiry Date: n/a]
 Last Updated using manual update on Wed Nov 16 15:45:00 2016
 Last Update Attempt: n/a
 Result: Updates Installed
@@ -120,7 +115,7 @@ Result: Updates Installed
 Virus Definitions
 ---------
 Version: 46.00292
-Contract Expiry Date: n/a
+**[error Contract Expiry Date: n/a]
 Last Updated using manual update on Sun Apr 23 05:10:00 2017
 Last Update Attempt: n/a
 Result: Updates Installed
@@ -131,17 +126,4 @@ Result: Updates Installed
 ## You got mail!
 
 You're proud of all the hard work done but there is still more to come, you just received a new email from your boss, this one contains the network diagram and ip addressing for your network.
-
-```
-**[terminal]
-**[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
-Normal output line. Nothing special here...
-But...
-You can add some colors. What about a warning message?
-**[warning [WARNING] The color depends on the theme. Could look normal too]
-What about an error message?
-**[error [ERROR] This is not the error you are looking for]
-```
-
-
 
