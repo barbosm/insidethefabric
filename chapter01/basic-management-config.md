@@ -22,6 +22,12 @@ end
 config system global
     set hostname FG
 end
+**[terminal]
+
+FGVM020000000000 # [command] config system global
+FGVM020000000000 (global) # [command] set hostname FG
+FGVM020000000000 (global) # [command ]end
+FG # 
 ```
 
 ## Admin session timeout
@@ -44,6 +50,11 @@ First check your current version:
 FG # get sys stat
 Version: FortiGate-VM64 v5.4.2,build1100,161101 (GA)
 ...
+**[terminal]
+**[prompt FG]**[delimiter  # ]**[command get sys status]
+
+**[prompt FG]**[delimiter  # ]**[command get sys stat]
+**[warning Version: FortiGate-VM64 v5.4.2,build1100,161101 (GA)]
 ```
 
 Now you can choose the target version, download it from the FortiGuard servers and update your device.

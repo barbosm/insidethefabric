@@ -9,7 +9,7 @@ Keep in mind that we go over some config steps without doing all considerations 
 Ok, in your desk you have this small, beautiful little white box and just after turning it on you can see some leds blinking which gives you the impression that everything is working, then you connect a network cable and access the device both by HTTPS and SSH \(usually in the IP 192.168.1.99\), then login using the **user** _**admin**_ and _**nothing \(as in blank, nada\)**_ as the **password**. You're in.
 
 ```
-FGT60D4613056666 #
+FGVM020000000000 #
 ```
 
 ## Basic Management Config
