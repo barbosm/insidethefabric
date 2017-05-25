@@ -12,7 +12,9 @@ Ok, in your desk you have this small, beautiful little white box and just after 
 FGT60D4613056666 #
 ```
 
-Now you start configuring some basic management stuff that you'll need to no matter the initial network configuration that your boss asked to, here's what you remember from the top of your head:
+## Basic Management Config
+
+Now you start thinking about some basic management stuff that you'll need to configure no matter the initial network configuration that your boss is going to ask to, here's what you remember from the top of your head:
 
 * Change admin password \(Top priority!\)
 * Hostname
@@ -20,63 +22,15 @@ Now you start configuring some basic management stuff that you'll need to no mat
 * Update firmware
 * Check licensing and security updates
 
-After planning the initial steps, you get to work right away.
+After planning the initial steps, also start to plan what you need to do until the end of the day to have the network up and running, after you receive the network diagram specifications.
 
-### Change admin password
+## Basic Network Config
 
-```
-config system admin
-    edit "admin"
-        set password verygoodandsecurepassword
-    next
-end
-```
-
-### Hostname
-
-### Admin session timeout
-
-### Update firmware
-
-### Check licensing and security updates
-
-After you receive the network diagram you're ready to start configuring the specific settings needed to have the network up and running, here's what you plan to configure:
+You know that in a few moments you'll receive more info on this subject and after you have that information here's what you plan to configure:
 
 * Network interfaces \(physical interfaces and VLANs\)
 * Static routing
 * Source NAT
-
-> #### primary::Title
->
-> test
->
-> test
-
-#### 
-
-> #### success::Title
-
-#### 
-
-> #### danger::Title
->
-> danger!
-
-#### 
-
-> #### warning::Title
->
-> warning!
-
-#### 
-
-> #### info::Title
-
-#### 
-
-> #### Title
->
-> Content
 
 
 
