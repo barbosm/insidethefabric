@@ -19,13 +19,15 @@ end
 ## Hostname
 
 ```
-    set hostname "FG"
+config system global
+    set hostname FG
 end
 ```
 
 ## Admin session timeout
 
 ```
+config system global
     set admintimeout 60
 end
 ```
